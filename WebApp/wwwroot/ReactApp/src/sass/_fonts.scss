@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+@font-face {
+  // stylelint-disable indentation
+  font-family: 'Handel Gothic';
+  src: url('#{set-path($cdn-path)}/fonts/handel_gothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Handel Gothic d-light';
+  src: url('#{set-path($cdn-path)}/fonts/handel-gothic-d-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,10 @@
+// Bootstrap .form-control extends
+
+.form-control {
+  font-size: rem-calc(16px);
+  border-radius: 0;
+  border-top-right-radius: rem-calc(15px);
+  border-bottom-left-radius: rem-calc(15px);
+  padding: rem-calc(10px) rem-calc(15px);
+  outline: none;
+}

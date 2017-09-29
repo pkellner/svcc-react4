@@ -1,0 +1,57 @@
+.login-modal {
+  .modal-dialog {
+    margin-top: 10%;
+
+    .modal-content {
+      border-radius: 0;
+      background-color: darken($color-main-light, 4%);
+
+      .modal-body {
+        padding: rem-calc(25px) rem-calc(50px) rem-calc(35px);
+
+        .modal-title {
+          font-family: $font-headers;
+          color: lighten($color-main-dark, 11%);
+          font-size: rem-calc(30px);
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: rem-calc(15px);
+        }
+      }
+    }
+  }
+
+  &__buttons {
+    padding-left: rem-calc(35px);
+
+    .social-btn {
+      float: left;
+    }
+
+    @media screen and (max-width: 575px) {
+      padding-left: 0;
+    }
+  }
+
+  &__form {
+    padding-right: rem-calc(50px);
+    border-right: 1px solid $color-borders;
+
+    input[type=text] {
+      margin-bottom: rem-calc(15px);
+    }
+
+    @media screen and (max-width: 575px) {
+      padding-right: 0;
+      border-right: none;
+    }
+  }
+
+  &__title {
+    font-family: $font-content;
+    font-weight: 600;
+    color: lighten($color-main-dark, 17%);
+    font-size: rem-calc(16px);
+    margin-bottom: rem-calc(20px);
+  }
+}
