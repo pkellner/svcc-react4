@@ -14,7 +14,7 @@ class Speakers extends Component {
   render() {
     return (
       <div>
-        <div>PETER WAS HERE</div>
+        <div>PETER WAS HEREx</div>
         <SpeakersHeader />
         <SpeakerList {...this.props} />
       </div>
