@@ -3,7 +3,7 @@ import React from 'react';
 export default function HomeHeader() {
   return (
     <div className="jumbo-events">
-      <div>PETER WAS HERE</div>
+
       <div className="container-main">
         <div className="row">
           <div className="col-4 jumbo-events__info">
