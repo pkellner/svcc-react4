@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
+using Microsoft.AspNetCore.NodeServices;
 
 namespace WebApp.Controllers
 {
@@ -27,6 +28,15 @@ namespace WebApp.Controllers
             ViewData["Message"] = "Your contact page.";
 
             return View();
+        }
+
+        public async Task<IActionResult> NodeTest([FromServices] INodeServices nodeServices)
+        {
+
+            ViewData["ResultFromNode"] = 
+                await nodeServices.InvokeAsync<string>("NodeSrc/myNodeModule.js");
+            return View(viewName: "NodeTest");
+
         }
 
         public IActionResult Error()

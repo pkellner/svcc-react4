@@ -3,5 +3,6 @@
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>
     <NameOfLastUsedPublishProfile>svcc-react2 - Web Deploy</NameOfLastUsedPublishProfile>
+    <WebStackScaffolding_DependencyDialogWidth>600</WebStackScaffolding_DependencyDialogWidth>
   </PropertyGroup>
 </Project>
