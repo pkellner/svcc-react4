@@ -24,8 +24,8 @@ namespace WebApp
             services.AddMvc();
 
             services.AddNodeServices(options => {
-                options.LaunchWithDebugging = true;
-                options.DebuggingPort = 9229;
+                //options.LaunchWithDebugging = true;
+                //options.DebuggingPort = 9229;
             });
         }
 
