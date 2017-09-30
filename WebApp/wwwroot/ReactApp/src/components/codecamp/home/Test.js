@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class Test extends Component {
   render() {
     return (
-      <div>TEST CMPxxx</div>
+      <div></div>
     );
   }
 }
